@@ -1,0 +1,122 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Backyard Furnitures</title>
+
+    <link href="{%static 'css/style.css'%}" rel="stylesheet">
+  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Backyard Furnitures</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{%url 'signup'%}">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        {% block content %}
+        
+        
+        {% endblock content %}
+
+
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 mb-4">
+                                <h5>Outdoor Oasis</h5>
+                                <p>Transforming backyards into beautiful living spaces since 2010.</p>
+                                <div class="mt-3">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 mb-4">
+                                <h5>Shop</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-white">Patio Sets</a></li>
+                                    <li><a href="#" class="text-white">Lounge Furniture</a></li>
+                                    <li><a href="#" class="text-white">Fire Pits</a></li>
+                                    <li><a href="#" class="text-white">Umbrellas</a></li>
+                                    <li><a href="#" class="text-white">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-4 mb-4">
+                                <h5>Support</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-white">FAQ</a></li>
+                                    <li><a href="#" class="text-white">Shipping Info</a></li>
+                                    <li><a href="#" class="text-white">Returns</a></li>
+                                    <li><a href="#" class="text-white">Care Guide</a></li>
+                                    <li><a href="#" class="text-white">Warranty</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-4 mb-4">
+                                <h5>Company</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-white">About Us</a></li>
+                                    <li><a href="#" class="text-white">Blog</a></li>
+                                    <li><a href="#" class="text-white">Careers</a></li>
+                                    <li><a href="#" class="text-white">Press</a></li>
+                                    <li><a href="#" class="text-white">Sustainability</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 mb-4">
+                                <h5>Legal</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-white">Terms & Conditions</a></li>
+                                    <li><a href="#" class="text-white">Privacy Policy</a></li>
+                                    <li><a href="#" class="text-white">Cookie Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="mt-4 mb-4 bg-light">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start">
+                                <p>&copy; 2025 Outdoor Oasis. All Rights Reserved.</p>
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <img src="/api/placeholder/200/40" alt="Payment Methods" class="img-fluid" style="max-height: 30px;">
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+        
+        
+        <script src="" async defer></script>
+    </body>
+</html>

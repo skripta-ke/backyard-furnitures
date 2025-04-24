@@ -1,0 +1,254 @@
+{% extends "backend/index.html" %}
+{% load static %}
+
+{% block content %}
+
+
+    <!-- Hero Section -->
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Transform Your Backyard</h1>
+            <p class="lead mb-4">Premium outdoor furniture designed for comfort, style, and durability</p>
+            <a href="#products" class="btn btn-custom btn-lg">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Featured Products -->
+    <section id="products" class="container mb-5">
+        <h2 class="text-center mb-4">Featured Collections</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="/api/placeholder/600/400" class="card-img-top" alt="Patio Sets">
+                    <div class="card-body">
+                        <h5 class="card-title">Patio Dining Sets</h5>
+                        <p class="card-text">Elegant dining sets perfect for entertaining guests or enjoying family meals outdoors.</p>
+                        <a href="#" class="btn btn-custom">View Collection</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="/api/placeholder/600/400" class="card-img-top" alt="Lounge Chairs">
+                    <div class="card-body">
+                        <h5 class="card-title">Lounge Seating</h5>
+                        <p class="card-text">Comfortable lounge chairs and sofas for relaxation and ultimate backyard comfort.</p>
+                        <a href="#" class="btn btn-custom">View Collection</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="/api/placeholder/600/400" class="card-img-top" alt="Fire Pits">
+                    <div class="card-body">
+                        <h5 class="card-title">Fire Pits & Heaters</h5>
+                        <p class="card-text">Extend your outdoor season with stylish fire pits and patio heaters.</p>
+                        <a href="#" class="btn btn-custom">View Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="/api/placeholder/600/400" class="card-img-top" alt="Outdoor Umbrellas">
+                    <div class="card-body">
+                        <h5 class="card-title">Umbrellas & Shade</h5>
+                        <p class="card-text">Stay cool with our selection of umbrellas, canopies, and shade solutions.</p>
+                        <a href="#" class="btn btn-custom">View Collection</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="/api/placeholder/600/400" class="card-img-top" alt="Hammocks">
+                    <div class="card-body">
+                        <h5 class="card-title">Hammocks & Swings</h5>
+                        <p class="card-text">Sway your stress away with our comfortable hammocks and porch swings.</p>
+                        <a href="#" class="btn btn-custom">View Collection</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="/api/placeholder/600/400" class="card-img-top" alt="Outdoor Decor">
+                    <div class="card-body">
+                        <h5 class="card-title">Outdoor Decor</h5>
+                        <p class="card-text">Complete your outdoor space with our weather-resistant decorative accents.</p>
+                        <a href="#" class="btn btn-custom">View Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offer Banner -->
+    <section class="bg-dark text-white py-4 mb-5">
+        <div class="container text-center">
+            <h3>Spring Special: 20% Off All Patio Sets</h3>
+            <p class="mb-2">Use code SPRING20 at checkout • Limited time offer</p>
+            <a href="#" class="btn btn-outline-light">Shop the Sale</a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="container mb-5">
+        <h2 class="text-center mb-4">Why Choose Our Furniture</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-cloud-sun feature-icon"></i>
+                <h4>Weather Resistant</h4>
+                <p>Our furniture is designed to withstand the elements, from rain to UV exposure.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-medal feature-icon"></i>
+                <h4>Premium Quality</h4>
+                <p>Crafted from high-grade materials for durability and long-lasting performance.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-tools feature-icon"></i>
+                <h4>Easy Assembly</h4>
+                <p>Simple assembly process with clear instructions and all necessary hardware included.</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-truck feature-icon"></i>
+                <h4>Free Shipping</h4>
+                <p>Enjoy free shipping on all orders over $500 within the continental US.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-leaf feature-icon"></i>
+                <h4>Eco-Friendly</h4>
+                <p>Sustainable materials and production processes that minimize environmental impact.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-shield-alt feature-icon"></i>
+                <h4>3-Year Warranty</h4>
+                <p>Shop with confidence knowing your furniture is protected by our comprehensive warranty.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonial mb-5">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="text-warning mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="card-text">"The quality of our patio set exceeded expectations. After two years of use, it still looks brand new despite being exposed to all kinds of weather."</p>
+                            <p class="fw-bold mb-0">- Sarah J.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="text-warning mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="card-text">"Assembly was a breeze and the customer service team was incredibly helpful when I had questions. My new fire pit is now the centerpiece of our backyard."</p>
+                            <p class="fw-bold mb-0">- Michael T.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="text-warning mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="card-text">"We've purchased outdoor furniture from many retailers, but none compare to the comfort and style of our Outdoor Oasis lounge set. Worth every penny!"</p>
+                            <p class="fw-bold mb-0">- Lisa R.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="container mb-5">
+        <div class="p-5 text-center bg-light rounded">
+            <h3>Stay Updated</h3>
+            <p class="mb-4">Subscribe to our newsletter for new product announcements and exclusive offers</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form class="d-flex">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button type="submit" class="btn btn-custom ms-2">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container mb-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-custom">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-4">
+                    <h4>Our Store</h4>
+                    <p>123 Garden Way<br>
+                    Sunnyvale, CA 94089</p>
+                </div>
+                <div class="mb-4">
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Friday: 9am - 6pm<br>
+                    Saturday: 10am - 5pm<br>
+                    Sunday: Closed</p>
+                </div>
+                <div>
+                    <h4>Contact Information</h4>
+                    <p>Phone: (555) 123-4567<br>
+                    Email: info@outdooroasis.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+{% endblock content %}
