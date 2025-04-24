@@ -1,0 +1,47 @@
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/600');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 150px 0;
+            margin-bottom: 3rem;
+        }
+        
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #198754;
+        }
+        
+        .testimonial {
+            background-color: #f8f9fa;
+            padding: 3rem 0;
+        }
+        
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 3rem 0;
+        }
+        
+        .social-icon {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            color: white;
+        }
+        
+        .btn-custom {
+            background-color: #198754;
+            border-color: #198754;
+        }
+        
+        .btn-custom:hover {
+            background-color: #157347;
+            border-color: #146c43;
+        }
+   
